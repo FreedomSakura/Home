@@ -23,9 +23,6 @@ export default {
         height: 60px;
         margin: 2px 10px;
 
-        background-color: rgba(0, 0, 0, 0.2);
-
-        color: white;
         font-size: 7px;
     }
 

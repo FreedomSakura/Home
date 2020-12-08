@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Search></Search>
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
@@ -24,6 +23,5 @@ export default {
 
 <style scoped>
   @import "~assets/css/base.css";
-
   
 </style>

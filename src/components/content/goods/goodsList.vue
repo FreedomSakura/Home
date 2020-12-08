@@ -1,10 +1,10 @@
 <template>
     <div id="good">
-        <GoodsBar>
+        <GoodsBar class="goods-bar">
             <div slot="left" class="goods-bar-left">平台爆款</div>
             <div slot="right" class="goods-bar-right">猜你喜欢></div>
         </GoodsBar>
-        <div id="good-list">
+        <div class="good-list">
             <GoodsItem v-for="(item, index) in gList" :key="index" :gItem="item"></GoodsItem>
         </div>
     </div>
@@ -32,36 +32,46 @@ export default {
 <style scoped>
     #good {
         width: 100%;
-        height: 300px;
 
         margin: 0 auto;
     }
 
-    #good-list {
+    .goods-bar {
+        margin: 10px 0;
+    }
+
+    .good-list {
         display: flex;
         flex-wrap: wrap;
 
         justify-content: space-evenly;
-        
-        background-color: rgba(0, 0, 0, 0.05);
+
     }
 
     .goods-bar-left {
-        font-size: 13px;
+        font-size: 14px;
 
         position: relative;
         left: 10px;
     }
     .goods-bar-right {
-        width: 40px;
-        height: 20px;
+        text-align: center;
+        padding: 5px 6px;
 
-        font-size: 13px;
+        font-size: 14px;
+        color: white;
 
-        background-color: greenyellow;
-
+        background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+        
         position: absolute;
-        right: 0;
+        right: 10px;
+
+        display: flex;
+
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
     }
 
 </style>

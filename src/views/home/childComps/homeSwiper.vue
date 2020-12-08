@@ -31,6 +31,7 @@ export default {
 <style scoped>
     .aSwiper {
         width: 94%;
+        height: 112.3px;
 
         margin: 0 auto;
     } 

@@ -1,5 +1,5 @@
 <template>
-    <Tabbar>
+    <Tabbar class="tab-bar">
         <TabbarItem path="/home" activeColor="#d81e06">
             <img slot="item-icon" src="~assets/img/tabbar/首页.svg">
             <img slot="item-icon-active" src="~assets/img/tabbar/首页a.svg">

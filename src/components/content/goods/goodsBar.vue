@@ -1,5 +1,5 @@
 <template>
-    <div id="good-bar">
+    <div class="good-bar">
         <slot name="left"></slot>
         <slot name="right"></slot>
     </div>
@@ -12,10 +12,11 @@ export default {
 </script>
 
 <style scoped>
-    #good-bar {
+    .good-bar {
         display: flex;
+        align-items: center;
         position: relative;
 
-        margin: 10px 0;
+        height: 26px;
     }
 </style>

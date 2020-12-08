@@ -1,6 +1,6 @@
 <template>
     <div class="recommend-rect">
-        <img src="~assets/img/common/组21.png" class="slogan">
+        <img src="~assets/img/common/首页slogan.png" class="slogan">
         <!-- <div class="recommend-text">活动专区</div> -->
         <div class="recommend-list">
             <img src="~assets/img/recommend/组22.png">
@@ -36,7 +36,8 @@ export default {
     .recommend-list {
         width: 98%;
 
-        margin: 5px auto;
+        margin: 0 auto;
+        margin-bottom: 5px;
 
         display: flex;
         justify-content: center;
@@ -44,13 +45,11 @@ export default {
     }
 
     .slogan {
-        width: 98%;
-
-        margin-top: 10px;
+        width: 100%;
     }
 
     .recommend-list img {
-        width: 45%;
+        width: 47%;
 
         margin: 3px 2px;
     }
