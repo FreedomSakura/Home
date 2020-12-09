@@ -51,6 +51,6 @@ export default {
     .recommend-list img {
         width: 47%;
 
-        margin: 3px 2px;
+        margin: 5px 3px;
     }
 </style>

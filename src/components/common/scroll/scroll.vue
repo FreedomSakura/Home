@@ -26,7 +26,7 @@ export default {
 
         //2、监听滚动
         this.scroll.on('scroll', () => {
-            console.log(this.scroll)
+            //console.log(this.scroll)
         })
     },
     methods: {

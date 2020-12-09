@@ -31,7 +31,7 @@ export default {
   // 切换颜色
   computed: {
       isActive() {
-          return this.$route.path.indexOf(this.path) != -1
+          return this.$route.path.indexOf(this.path) !== -1
       },
       activeStyle() {
           return this.isActive ? {color : this.activeColor} : {}
@@ -49,8 +49,10 @@ export default {
 
     }   
     .tab-bar-item img {
-        width: 24px;
-        height: 24px;
-        margin-top: 2px;
+        width: 37px;
+        height: 37px;
+        margin-top: 5px;
+        margin-bottom: 3px;
     }
+
 </style>

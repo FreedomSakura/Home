@@ -36,42 +36,43 @@ export default {
         margin: 0 auto;
     }
 
-    .goods-bar {
-        margin: 10px 0;
-    }
-
     .good-list {
         display: flex;
         flex-wrap: wrap;
 
         justify-content: space-evenly;
+    }
 
+    .goods-bar {
+        height: 40px;
+        margin: 20px 0;
     }
 
     .goods-bar-left {
-        font-size: 14px;
+        font-size: 24px;
 
         position: relative;
-        left: 10px;
+        left: 37px;
     }
+
     .goods-bar-right {
         text-align: center;
-        padding: 5px 6px;
+        padding: 8px 9px;
 
-        font-size: 14px;
+        font-size: 13px;
         color: white;
 
         background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
         
         position: absolute;
-        right: 10px;
+        right: 37px;
 
         display: flex;
 
-        border-top-left-radius: 9px;
-        border-top-right-radius: 9px;
-        border-bottom-left-radius: 9px;
-        border-bottom-right-radius: 9px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
 </style>

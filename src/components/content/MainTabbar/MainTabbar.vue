@@ -8,7 +8,7 @@
         <TabbarItem path="/category" activeColor="#d81e06">
             <img slot="item-icon" src="~assets/img/tabbar/分类.svg">
             <img slot="item-icon-active" src="~assets/img/tabbar/分类a.svg">
-            <div slot="item-text">u选</div>
+            <div slot="item-text">U选</div>
         </TabbarItem>
         <TabbarItem path="/cart" activeColor="#d81e06">
             <img slot="item-icon" src="~assets/img/tabbar/购物车.svg">
@@ -18,7 +18,7 @@
         <TabbarItem path="/profile" activeColor="#d81e06">
             <img slot="item-icon" src="~assets/img/tabbar/个人中心.svg">
             <img slot="item-icon-active" src="~assets/img/tabbar/个人中心a.svg">
-            <div slot="item-text">首页</div>
+            <div slot="item-text">个人中心</div>
         </TabbarItem>
     </Tabbar>
 </template>
@@ -37,5 +37,7 @@ export default {
 </script>
 
 <style scoped>
-
+    .tab-bar {
+        height: 80px;
+    }
 </style>

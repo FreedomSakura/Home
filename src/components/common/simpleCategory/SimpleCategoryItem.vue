@@ -19,16 +19,16 @@ export default {
 
 <style scoped>
     .s-category-rect {
-        width: 48px;
-        height: 60px;
-        margin: 2px 10px;
+        width: 100px;
+        height: 110px;
+        margin: 3px 13px;
 
-        font-size: 7px;
+        font-size: 8px;
+        display: table-cell;
+        text-align: center;
     }
 
     .s-category-rect img {
-        width: 40px;
-
-        margin: 0 5px;
+        width: 68px;
     }
 </style>

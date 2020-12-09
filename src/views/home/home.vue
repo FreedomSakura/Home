@@ -1,6 +1,6 @@
 <template>
     <div id="home">
-        <Search class="home-search"></Search>
+        <Search></Search>
         <Scroll class="content" ref="scroll">
             <HomeSwiper :swiperData="swiperData" class="home-swiper"></HomeSwiper>
             <SimpleCategory :sCategory="sCategory"></SimpleCategory>
@@ -109,11 +109,11 @@ export default {
     };
 
     .area{
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: rgba(0, 0, 0, 0.06);
     }
 
     #a {
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: rgba(0, 0, 0, 0.06);
     }
 
     .content {
@@ -128,7 +128,7 @@ export default {
     .bottomImage img {
         width: 100%;
 
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
     .home-tips {
@@ -137,7 +137,7 @@ export default {
         text-align: center;
         font-size: 9px;
 
-        padding: 25px 0;
+        padding: 46px 0;
 
         position: relative;
     }

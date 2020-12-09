@@ -16,7 +16,6 @@ module.exports = {
                 target: 'http://test-ushop.qlxiangshang.com',
                 // 允许跨域
                 changeOrigin: true,
-                ws: true,
                 pathRewrite: {
                     '^/api': ''
                 }

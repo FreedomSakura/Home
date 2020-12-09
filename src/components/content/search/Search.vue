@@ -20,9 +20,9 @@ export default {
 <style scoped>
     #search {
         width: 94%;
-        height: 27px;
+        height: 80px;
 
-        margin: 10px auto;
+        margin: 0 auto;
 
         display: flex;
         justify-content: center;
@@ -30,22 +30,22 @@ export default {
     } 
     .search-boder {
         width: 100%;
-        height: 24px;
+        height: 50px;
 
         display: flex;
         justify-content: center;
         align-items: center;        
 
-        border: 1.5px solid #d81e06;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border: 2px solid #d81e06;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
 
     .search-core {
         width: 90%;
-        height: 15px;
+        height: 30px;
 
         margin-left: -10px;
 
@@ -54,14 +54,14 @@ export default {
     }
 
     .search-core img {
-        width: 15px;
-        height: 15px;
+        width: 25px;
+        height: 25px;
 
         margin-right: 3px;
     }
     .search-core-input {
         width: 95%;
-        height: 13px;
+        height: 25px;
 
         font-size: 13px;
 
@@ -69,9 +69,10 @@ export default {
         outline: none;
     }
     .search-btn {
-        width: 37px;
-        height: 23.3px;
-        line-height: 23.3px;
+        height: 50px;
+        line-height: 50px;
+
+        padding: 0px 16px;
 
         color: white;
         text-align: center;
@@ -81,12 +82,11 @@ export default {
         background-color: red;
 
         position: absolute;
-        right: 10px;
-        top: 1.3px;
+        right: 18px;
 
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
 </style>

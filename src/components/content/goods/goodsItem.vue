@@ -34,9 +34,9 @@ export default {
 <style scoped>
     .good-item {
         width: 47%;
-        height: 250px;
+        height: 459px;
 
-        margin: 3px 0;
+        margin: 6px 0;
 
         background-color: white;
 
@@ -48,7 +48,7 @@ export default {
 
     .good-item .gSpan{
         width: 100%;
-        height: 166.5px;
+        height: 306.4px;
 
         display: table-cell;
         text-align: center;
@@ -57,7 +57,7 @@ export default {
 
     .good-item .gSpan img{
         width: 100%;
-        height: 162.5px;
+        height: 299px;
 
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -66,8 +66,8 @@ export default {
     }
 
     .good-item-title {
-        margin-left: 10px;
-        margin-top: 15px;
+        margin-left: 19px;
+        margin-top: 27px;
 
         font-size: 12px;
         font-weight: bold;
@@ -77,10 +77,12 @@ export default {
         display: flex; 
 
         width: 100%;
-        height: 22px;
-        line-height: 22px;
+        height: 40px;
+        line-height: 40px;
 
-        margin-top: 25px;
+        margin-top: 40px;
+
+        color: red;
 
         position: relative;
     }
@@ -88,19 +90,18 @@ export default {
     .good-item-info .price {
         position: absolute;
         left: 7px;
-
     }
 
     .good-item-info .image {
         position: absolute;
-        right: 12px;
+        right: 20px;
 
         display: table-cell;
         text-align: center;
     }
 
     .good-item-info img {
-        width: 20px;
-        height: 20px;
+        width: 37px;
+        height: 37px;
     }
 </style>

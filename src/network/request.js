@@ -4,7 +4,7 @@ import axios from 'axios'
 export function request1(config) {
     // 实例化axios对象
     const instance = axios.create({
-        baseURL: '/api',
+        baseURL: process.env.VUE_APP_BASE_API,
         timeout: 5000
     })
 

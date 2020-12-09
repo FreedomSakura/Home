@@ -41,8 +41,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-    routes,
-    mode: 'history'
+    mode: 'history',
+    routes
 })
 
 //4、导出路由
