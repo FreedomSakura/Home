@@ -23,7 +23,7 @@ export default {
         height: 110px;
         margin: 3px 13px;
 
-        font-size: 8px;
+        font-size: 0.6rem;
         display: table-cell;
         text-align: center;
     }

@@ -49,7 +49,7 @@ export default {
     }
 
     .goods-bar-left {
-        font-size: 24px;
+        font-size: 0.75rem;
 
         position: relative;
         left: 37px;
@@ -59,7 +59,7 @@ export default {
         text-align: center;
         padding: 8px 9px;
 
-        font-size: 13px;
+        font-size: 0.6rem;
         color: white;
 
         background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);

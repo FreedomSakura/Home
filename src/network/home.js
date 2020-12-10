@@ -21,3 +21,4 @@ export function getHomeGoodsList() {
         url: '/ushop/prcsku/api/getBkPrcSkus'
     })
 }
+

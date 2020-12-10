@@ -12,7 +12,9 @@
     "core-js": "^3.6.5",
     "postcss-px-to-viewport": "^1.1.1",
     "postcss-pxtorem": "^5.1.1",
+    "vconsole": "^3.3.4",
     "vue": "^2.6.2",
+    "vue-lazyload": "^1.3.3",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.6.12"
   },

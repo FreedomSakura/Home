@@ -2,7 +2,7 @@
     <div id="home">
         <Search></Search>
         <Scroll class="content" ref="scroll">
-            <HomeSwiper :swiperData="swiperData" class="home-swiper"></HomeSwiper>
+            <HomeSwiper :swiperData="swiperData"></HomeSwiper>
             <SimpleCategory :sCategory="sCategory"></SimpleCategory>
             <div class="area" id="a">
                 <Recommend></Recommend>
@@ -117,10 +117,11 @@ export default {
     }
 
     .content {
-        height: calc(100% - 47px - 49px);
+        /* height: calc(100% - 45px - 45px - 80px);  */
+        height: calc(100% - 5rem);
         overflow: hidden;
     }
-
+z
     .bottomImage {
         width: 96%;
         margin: 0 auto;
@@ -135,7 +136,7 @@ export default {
         width: 96%;
 
         text-align: center;
-        font-size: 9px;
+        font-size: 0.7rem;
 
         padding: 46px 0;
 

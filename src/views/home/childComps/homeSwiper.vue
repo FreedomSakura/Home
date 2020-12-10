@@ -2,9 +2,7 @@
     <!-- <div id="homeSwiper"> -->
         <Swiper class="aSwiper">
             <SwiperItem v-for="(item, index) in swiperData" :key="index">
-                <a href="">
                     <img :src="item.assetUrl">
-                </a>
             </SwiperItem>
         </Swiper>
     <!-- </div> -->
@@ -30,8 +28,8 @@ export default {
 
 <style scoped>
     .aSwiper {
-        width: 94%;
-        height: 208px;
+        width: 93%;
+        height: 6.5rem;
 
         margin: 0 auto;
 

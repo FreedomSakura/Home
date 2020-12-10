@@ -3,7 +3,7 @@
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
-    <MainTabbar></MainTabbar>
+    <MainTabbar class="c"></MainTabbar>
   </div>
 </template>
 
@@ -23,5 +23,5 @@ export default {
 
 <style scoped>
   @import "~assets/css/base.css";
-  
+
 </style>

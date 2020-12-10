@@ -28,7 +28,6 @@ export default {
 
     .recommend-item img {
         width: 45%;
-        height: 100%;
 
         background-position: cover;
     }

@@ -63,7 +63,7 @@ export default {
         width: 95%;
         height: 25px;
 
-        font-size: 13px;
+        font-size: 0.6rem;
 
         border: 0px;
         outline: none;
@@ -77,7 +77,7 @@ export default {
         color: white;
         text-align: center;
 
-        font-size: 12px;
+        font-size: 0.6rem;
 
         background-color: red;
 

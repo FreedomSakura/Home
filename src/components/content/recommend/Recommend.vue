@@ -26,12 +26,6 @@ export default {
     .recommend-rect {
         margin-bottom: 10px;
     }
-    .recommend-text {
-        position: relative;
-        left: 10px;
-        
-        font-size: 13px;
-    }
 
     .recommend-list {
         width: 98%;
@@ -50,6 +44,7 @@ export default {
 
     .recommend-list img {
         width: 47%;
+        height: 4.88rem;
 
         margin: 5px 3px;
     }

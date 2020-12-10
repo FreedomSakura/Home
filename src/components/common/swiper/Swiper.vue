@@ -6,7 +6,7 @@
       <slot name="indicator">
       </slot>
       <div class="indicator">
-        <slot name="indicator" v-if="showIndicator && slideCount>1">
+        <slot name="indicator" v-show="showIndicator && slideCount>1">
           <div v-for="(item, index) in slideCount" class="indi-item" :class="{active: index === currentIndex-1}" :key="index"></div>
         </slot>
       </div>
@@ -44,13 +44,19 @@
       }
     },
     mounted: function () {
+      console.log('slideCout1', this.slideCount)
       // 1.操作DOM, 在前后添加Slide
       setTimeout(() => {
         this.handleDom();
 
         // 2.开启定时器
         this.startTimer();
-      }, 100)
+      }, 300)
+
+      setTimeout(() => {
+        console.log('slideCout2', this.slideCount)
+      }, 1000)
+
     },
     methods: {
 		  /**
@@ -142,6 +148,7 @@
        * 拖动事件的处理
        */
       touchStart: function (e) {
+        // console.log('start', e)
         // 1.如果正在滚动, 不可以拖动
         if (this.scrolling) return;
 
@@ -153,6 +160,7 @@
       },
 
       touchMove: function (e) {
+        // console.log('move', e)
         // 1.计算出用户拖动的距离
         this.currentX = e.touches[0].pageX;
         this.distance = this.currentX - this.startX;
@@ -164,6 +172,7 @@
       },
 
       touchEnd: function (e) {
+        // console.log('end', e)
         // 1.获取移动的距离
         let currentMove = Math.abs(this.distance);
 
